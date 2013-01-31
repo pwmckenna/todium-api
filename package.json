@@ -1,0 +1,38 @@
+{
+  "name": "todium-api",
+  "description": "Adds a torrent to todium via an http interface",
+  "version": "0.1.0",
+  "homepage": "https://github.com/pwmckenna/todium-api",
+  "author": {
+    "name": "Patrick Williams",
+    "email": "pwmckenna@gmail.com",
+    "url": "http://pwmckenna.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pwmckenna/todium-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pwmckenna/todium-api/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/pwmckenna/todium-api/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/todium-api",
+  "engines": {
+    "node": "0.8.x",
+    "npm": "1.1.x"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt": "~0.3.17"
+  },
+  "keywords": [],
+  "dependencies": {
+  }
+}
