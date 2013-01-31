@@ -34,5 +34,9 @@
   },
   "keywords": [],
   "dependencies": {
+    "faye-websocket": "~0.4.3",
+    "url": "~0.7.9",
+    "q": "~0.8.12",
+    "request": "~2.12.0"
   }
 }
