@@ -1,10 +1,10 @@
 module.exports = function(grunt) {
-
+  "use strict";
   // Project configuration.
   grunt.initConfig({
     pkg: '<json:package.json>',
     lint: {
-      files: ['grunt.js', 'lib/**/*.js']
+      files: ['grunt.js', 'lib/api.js']
     },
     watch: {
       files: '<config:lint.files>',
